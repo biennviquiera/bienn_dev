@@ -51,7 +51,7 @@ export default function Sidebar() {
                             {name}
                             {path === pathname ? (
                                 <motion.div
-                                className="absolute inset-0 bg-neutral-100 dark:bg-green-600 rounded-xl z-[-1]"
+                                className="absolute inset-0 bg-green-600 rounded-xl z-[-1]"
                                 layoutId="sidebar"
                                 transition={{
                                     type: 'spring',
