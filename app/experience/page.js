@@ -1,5 +1,5 @@
 import Layout from '../layout'
-import { experience } from '../lib/text'
+import { experience } from '../../lib/text'
 
 export default function Page() {
     return (

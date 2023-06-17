@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Layout from './layout'
 import './globals.css'
-import { about } from './lib/text'
+import { about } from '../lib/text'
 
 export default function Home() {
   return (
