@@ -19,7 +19,7 @@ export default function Page() {
                     </p>
                 </Dropdown>
 
-                <Dropdown name="MP3 Looper" languages="Next.js">
+                <Dropdown name="MP3 Looper" languages="Next.js, Express.js, AWS S3">
                     <p>
                         MP3 Looper is a web application that users to upload mp3 files and select a snippet to loop. 
                         It was inspired by a loop I created which received 800,000+ views on YouTube
