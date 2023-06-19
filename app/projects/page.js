@@ -4,7 +4,7 @@ import Dropdown from '../components/Dropdown';
 export default function Page() {
     return (
         <Layout>
-            <div className="container max-w-lg">
+            <div className="container">
                 <Dropdown name="Disher" languages="Objective-C, Parse">
                     Disher is an iOS application built with Objective-C that allows users to save their favorite dishes,
                     view its ingredients, and search using ingredients they currently possess.

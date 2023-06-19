@@ -7,7 +7,7 @@ export default function Home() {
   return (
       <Layout>
         <h1 className="font-bold text-4xl mb-4">Bienn Viquiera</h1>
-        <div className="max-w-xl">
+        <div>
           {about()}
         </div>
       </Layout>

@@ -10,9 +10,9 @@ const buttons = {
     '/': {
         name: 'about',
     },
-    '/experience': {
-        name: 'experience'
-    },
+    // '/experience': {
+    //     name: 'experience'
+    // },
     '/projects': {
         name: 'projects'
     }
