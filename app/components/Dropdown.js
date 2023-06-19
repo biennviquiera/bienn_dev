@@ -7,9 +7,7 @@ export default function Dropdown(props) {
                 <div className="border-8 border-transparent border-l-white 
                 group-open:rotate-90 duration-300 transition-transform origin-left"></div>
             </summary>
-            <p>
-                {props.children}
-            </p>
+            {props.children}
         </details>
     )
 }
