@@ -23,13 +23,15 @@ export default function Sidebar() {
     let pathname = usePathname() || '/';
     return (
         <aside className="md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-sans-serif">
-            <div className="lg:sticky lg:top-20">
-                {/* <Image priority={true} className="rounded-full flex flex-row md:flex-col justify-center relative"
+            <div className="flex flex-row md:flex-col justify-center relative">
+                <Image className="md:mb-8 rounded-full"
                     src="/profile.jpeg"
                     width={100}
-                    height={200}
+                    height={100}
                     alt="Picture of Bienn"
-                /> */}
+                />
+            </div>
+            <div className="lg:sticky lg:top-20">
                 <LayoutGroup>
                     <nav
                         className="flex flex-row md:flex-col justify-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
