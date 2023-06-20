@@ -1,5 +1,3 @@
-'use client'
-
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { clsx } from 'clsx';
@@ -26,7 +24,6 @@ export default function Sidebar() {
             <div className="flex flex-row md:flex-col justify-center relative">
                 <Image
                     className="md:mb-8 rounded-full"
-                    priority={true}
                     src="/profile.jpeg"
                     width={100}
                     height={100}
