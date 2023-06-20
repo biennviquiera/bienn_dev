@@ -25,15 +25,16 @@ export default function Sidebar() {
         <>
             <aside className="md:w-[150px] md:flex-shrink-0 -mx-4 md:mx-0 md:px-0 font-sans-serif">
                 <div className="lg:sticky lg:top-20">
-                    <div className="display:block ml-2 md:ml-[4px] mb-2 md:px-0 md:mb-8 space-y-10 flex flex-row md:flex-col justify-center ">
-                        <Image loading="lazy" className="rounded-full flex flex-row md:flex-col justify-center relative"
-                            src="/profile.jpeg"
-                            width={100}
-                            height={200}
-                            alt="Picture of Bienn"
-                        />
-                    </div>
                     <LayoutGroup>
+
+                        <div className="mb-4 md:px-0 flex md:flex-col justify-center ">
+                            <Image loading="lazy" className="rounded-full flex flex-row md:flex-col justify-center relative"
+                                src="/profile.jpeg"
+                                width={100}
+                                height={200}
+                                alt="Picture of Bienn"
+                            />
+                        </div>
                         <nav
                             className="flex flex-row md:flex-col justify-center relative px-4 md:px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
                             id="nav"
