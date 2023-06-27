@@ -1,3 +1,5 @@
+import '../app/globals.css'
+
 export default function Dropdown(props) {
     return (
         <details className="container group mb-8 transition-transform rounded border-white-400 border-l border-t border-b border-r">
