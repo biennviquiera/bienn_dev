@@ -5,10 +5,10 @@ import Link from 'next/link'
 import Layout from './layout'
 import './globals.css'
 import { about } from '../lib/text'
-import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
+    <div>
       <Layout>
         <h1 className="font-bold text-4xl mb-4">Bienn Viquiera</h1>
         <div>
@@ -41,5 +41,6 @@ export default function Home() {
 
         </div>
       </Layout>
+    </div>
   )
 }
