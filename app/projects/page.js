@@ -26,7 +26,7 @@ export default function Page() {
 					</p>
 				</Dropdown>
 
-				<Dropdown name="SkipPlayer" languages="Python, PyQt5, ffpmeg">
+				<Dropdown name="SkipPlayer" languages="Python, PyQt5, ffmpeg">
 					<p>
 						SkipPlayer is a Python program aimed to help students review lectures by skipping silent portions of recordings.
 					</p>
